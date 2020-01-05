@@ -5,7 +5,7 @@
 这是一个超市账单管理系统，包括登录，订单管理，供应商管理，用户管理。
 
 ## 软件架构
-软件架构说明 该系统采用ssm+mysql+redis+shiro开发，Tomcat部署，
+软件架构说明 该系统采用ssm+redis+shiro开发，Tomcat部署，
 
 ## 安装教程
 安装mysql8.0，导入sql脚本<br>
