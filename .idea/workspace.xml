@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="page:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5147cb7c-f224-4f51-bc39-2b60fe39decb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/hfxt/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/ExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/dbInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/ehcache1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/redisInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/test/java/com/hfxt/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/utils/ExceptionResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/utils/PasswordUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/utils/RedisUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/utils/RedisUtils$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/com/hfxt/utils/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/dbInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/ehcache1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/redisInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/surefire-reports/TEST-com.hfxt.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/surefire-reports/com.hfxt.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/target/test-classes/com/hfxt/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/hfxt/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IBillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IProviderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mappers/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mappers/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mappers/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/test/java/com/hfxt/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/hfxt/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/hfxt/dao/IBillDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/hfxt/dao/IPermissionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/hfxt/dao/IProviderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/com/hfxt/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/mappers/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/mappers/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/mappers/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/surefire-reports/TEST-com.hfxt.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/surefire-reports/com.hfxt.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/target/test-classes/com/hfxt/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Pager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/hfxt/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/domain/Bill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/domain/Pager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/domain/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/domain/Provider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/classes/com/hfxt/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/surefire-reports/TEST-com.hfxt.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/surefire-reports/com.hfxt.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/target/test-classes/com/hfxt/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market_management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/WEB-INF/errorPages/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/billAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/billList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/billUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/billView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/common/JSTLPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/common/cssOrJs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/common/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/common/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/img/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/theme/default/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/theme/default/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/theme/default/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/theme/default/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/laydate/theme/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/providerAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/providerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/providerUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/providerView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/public.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/unauth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/userAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/userUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/userView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/src/main/webapp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/errorPages/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/ehcache-3.0.0.m4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/ehcache-core-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/offheap-store-2.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/shiro-aspectj-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/shiro-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/shiro-ehcache-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/shiro-web-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.6.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/lib/web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/billAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/billList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/billUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/billView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/common/JSTLPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/common/cssOrJs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/common/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/common/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/img/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/theme/default/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/theme/default/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/theme/default/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/theme/default/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/laydate/theme/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/providerAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/providerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/providerUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/providerView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/public.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/unauth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/userAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/userUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/userView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/target/page-1.0-SNAPSHOT/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IBillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/BillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/test/java/com/hfxt/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/IBillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/IPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/IProviderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/impl/BillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/impl/ProviderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/classes/com/hfxt/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/surefire-reports/TEST-com.hfxt.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/surefire-reports/com.hfxt.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/target/test-classes/com/hfxt/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/pageController/PageUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestBillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestPermController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/PermissionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/RetryLimitHashedCredentialsMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/hfxt/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/pageController/PageUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/restController/RestBillController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/restController/RestPermController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/restController/RestProviderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/restController/RestUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/utils/PermissionFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/utils/RetryLimitHashedCredentialsMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/hfxt/web/utils/UserRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/surefire-reports/TEST-com.hfxt.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/surefire-reports/com.hfxt.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/test-classes/com/hfxt/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/page/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/dao/target/" />
+    <ignored path="$PROJECT_DIR$/domain/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/commons/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestBillController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/resources/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/PermissionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Pager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/resources/redisInfo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/resources/dbInfo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/RetryLimitHashedCredentialsMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createBy</find>
+      <find>submit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xianyu" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/page/src/main/webapp/common/left.jsp" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Bill.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/PasswordUtils.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/BillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/ProviderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/PermissionFilter.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/resources/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestPermController.java" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/common/JSTLPage.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/common/cssOrJs.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/billAdd.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/billUpdate.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/billView.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/password.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/providerUpdate.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/providerView.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/public.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/userAdd.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/userUpdate.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/userView.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/providerAdd.jsp" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/ExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestUserController.java" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/WEB-INF/errorPages/error.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/unauth.jsp" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mappers/ProviderMapper.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mappers/BillMapper.xml" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/common/top.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/userList.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/providerList.jsp" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/billList.jsp" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IPermissionDao.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mappers/PermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IPermissionService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestProviderController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/resources/redisInfo.properties" />
+        <option value="$PROJECT_DIR$/page/src/main/webapp/css/public.css" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/UserRealm.java" />
+        <option value="$PROJECT_DIR$/dao/src/test/java/com/hfxt/AppTest.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/User.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestBillController.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Pager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="725" />
+    <option name="y" value="55" />
+    <option name="width" value="1220" />
+    <option name="height" value="905" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market_management" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hfxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Idea_work\market_management\page\src\main\webapp\WEB-INF\errorPages" />
+      <recent name="G:\Idea_work\market_management\page\src\main\webapp" />
+      <recent name="G:\Idea_work\market_management\page\src\main\webapp\js" />
+      <recent name="G:\Idea_work\market_management\commons\src\main\resources" />
+      <recent name="G:\Idea_work\market_management\domain\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hfxt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Idea_work\market_management\commons\src\main" />
+      <recent name="G:\Idea_work\market_management\dao\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.market_management ">
+    <configuration name="PasswordUtils" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hfxt.utils.PasswordUtils" />
+      <module name="commons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hfxt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hfxt.web.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hfxt" />
+      <option name="MAIN_CLASS_NAME" value="com.hfxt.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="market_management " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 7.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="page:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/page" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_market_management" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51083" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="page:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PasswordUtils" />
+      <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+      <item itemvalue="Maven.market_management " />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.82" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5147cb7c-f224-4f51-bc39-2b60fe39decb" name="Default Changelist" comment="" />
+      <created>1575361479884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575361479884</updated>
+      <workItem from="1575361483535" duration="1762000" />
+      <workItem from="1575363365868" duration="9759000" />
+      <workItem from="1575378730084" duration="6834000" />
+      <workItem from="1575418915535" duration="30646000" />
+      <workItem from="1575464266545" duration="6397000" />
+      <workItem from="1575504471687" duration="35917000" />
+      <workItem from="1575552122616" duration="2084000" />
+      <workItem from="1575590982863" duration="9826000" />
+      <workItem from="1575610100116" duration="10746000" />
+      <workItem from="1575704194933" duration="55000" />
+      <workItem from="1575716769339" duration="5352000" />
+      <workItem from="1575764344858" duration="13597000" />
+      <workItem from="1575800144559" duration="2929000" />
+      <workItem from="1575849903733" duration="4089000" />
+      <workItem from="1575937061692" duration="17088000" />
+      <workItem from="1576023635486" duration="18251000" />
+      <workItem from="1576110370545" duration="10518000" />
+      <workItem from="1576197397646" duration="2421000" />
+      <workItem from="1576283392163" duration="1391000" />
+      <workItem from="1576458008825" duration="1407000" />
+      <workItem from="1576541889558" duration="2506000" />
+      <workItem from="1576647765330" duration="1798000" />
+      <workItem from="1576714130385" duration="1201000" />
+      <workItem from="1576757911137" duration="611000" />
+      <workItem from="1576801539663" duration="2137000" />
+      <workItem from="1577060805670" duration="1457000" />
+      <workItem from="1577082880024" duration="342000" />
+      <workItem from="1577083254743" duration="2905000" />
+      <workItem from="1577154480572" duration="2717000" />
+      <workItem from="1577232364160" duration="3174000" />
+      <workItem from="1577278171194" duration="275000" />
+      <workItem from="1577320170817" duration="26000" />
+      <workItem from="1577413827443" duration="1263000" />
+      <workItem from="1577434169849" duration="242000" />
+      <workItem from="1577444251728" duration="2327000" />
+      <workItem from="1577496544929" duration="952000" />
+      <workItem from="1577506665952" duration="1547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.12.03 at 19h 07m 44s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.12.03 at 19h 11m 43s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.12.17 at 16h 53m 29s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.12.17 at 16h 55m 03s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.12.17 at 16h 55m 05s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="216549000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798928" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.46110326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37057993" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.34419262" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.9575672" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.57425743" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.34512022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tw" />
+    <option name="LAST_COMMIT_MESSAGE" value="tw" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dao/src/test/java/com/hfxt/AppTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="((LinkedHashMap.Entry)((LinkedHashMap)((SimplePrincipalCollection)((SimpleAuthenticationInfo)info).principals).realmPrincipals).entrySet().toArray()[0]).getKey()" custom="java.util.LinkedHashMap.Entry,java.util.LinkedHashMap,org.apache.shiro.subject.SimplePrincipalCollection,org.apache.shiro.authc.SimpleAuthenticationInfo" />
+        <watch expression="set" />
+      </configuration>
+      <configuration name="JUnit">
+        <watch expression="num ++ %5" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mappers/ProviderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/common/JSTLPage.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/providerList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/ExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/PasswordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/hfxt/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IProviderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IBillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/pageController/PageUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/ProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/BillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/billList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/common/cssOrJs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/billAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IPermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="182" column="17" lean-forward="true" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/common/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mappers/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mappers/BillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="77" selection-start-line="72" selection-start-column="77" selection-end-line="72" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/test/java/com/hfxt/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestPermController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/hfxt/service/IPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3924">
+          <caret line="218" column="41" selection-start-line="218" selection-start-column="41" selection-end-line="218" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/hfxt/dao/IBillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/restController/RestBillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/PermissionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/hfxt/web/utils/RetryLimitHashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/hfxt/domain/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/redisInfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/dbInfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>market_management</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfxt.dao.IUserDao">
+
+    <sql id="selectSql">select u.id,u.userCode,u.userName,u.userPassword,u.gender,u.birthday,u.phone,u.address,u.userType,u.createdBy createBy,u.creationDate,u.modifyBy,u.modifyDate,u.status,u.salt,r.role_name role
+        from smbms_user u left join smbms_role r on u.userType=r.id</sql>
+
+
+    <delete id="delUserById" parameterType="java.lang.Integer">
+        update smbms_user set status=0 where id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="java.util.Map">
+        update smbms_user 
+        set
+        <trim suffixOverrides=",">
+            <if test="userCode!=null">userCode=#{userCode},</if>
+            <if test="userName!=null">userName=#{userName},</if>
+            <if test="userPassword!=null">userPassword=#{userPassword},</if>
+            <if test="gender!=null">gender=#{gender},</if>
+            <if test="birthday!=null">birthday=#{birthday},</if>
+            <if test="phone!=null">phone=#{phone},</if>
+            <if test="address!=null">address=#{address},</if>
+            <if test="userType!=null">userType=#{userType},</if>
+            <if test="createBy!=null">createdBy=#{createBy},creationDate=now(),</if>
+            <if test="modifyBy!=null">modifyBy=#{modifyBy},modifyDate=now(),</if>
+            <if test="status!=null">status=#{status}</if>
+        </trim>
+        where id=#{id}
+    </update>
+
+    <insert id="saveUserById" parameterType="java.util.Map">
+        insert into smbms_user(userCode,userName,userPassword,gender,birthday,phone,address,userType,createdBy,creationDate,status,salt)
+        values (#{userCode},#{userName},#{userPassword},#{gender},#{birthday},#{phone},#{address},#{userType},#{createBy},now(),1,#{salt});
+    </insert>
+
+    <select id="getUserById" parameterType="java.lang.Integer" resultType="com.hfxt.domain.User">
+        <include refid="selectSql"></include>
+        where u.id=#{id} and u.status=1
+        limit 1
+    </select>
+
+    <select id="getAllUserByPage"  resultType="com.hfxt.domain.User">
+        <include refid="selectSql"></include>
+        <trim suffixOverrides="and">
+            where u.status = 1 and
+            <if test="name!=null">u.userName like "%"#{name}"%"</if>
+        </trim>
+        order by u.id desc
+        limit #{page.startPage},#{page.pageSize}
+    </select>
+
+    <select id="getUserByName" parameterType="java.lang.String" resultType="com.hfxt.domain.User">
+        <include refid="selectSql"></include>
+        where u.userName=#{userName}
+        limit 1
+    </select>
+
+    <select id="getUserByUserCode" parameterType="java.lang.String" resultType="com.hfxt.domain.User">
+        <include refid="selectSql"></include>
+        where u.userCode=#{userCode} and u.status = 1
+        limit 1
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(0) from smbms_user
+        <trim suffixOverrides="and">
+            where status = 1 and
+            <if test="name!=null">userName like "%"#{name}"%"</if>
+        </trim>
+    </select>
+
+</mapper>

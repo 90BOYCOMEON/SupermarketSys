@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfxt.dao.IProviderDao">
+
+    <sql id="selectSql">
+        select id,proCode,proName,proDesc,proContact,proPhone,proAddress,proFax,createdBy,creationDate,modifyDate,modifyBy,status
+        from smbms_provider
+    </sql>
+
+    <select id="getProviderById" parameterType="java.lang.Integer" resultType="com.hfxt.domain.Provider">
+        <include refid="selectSql"></include>
+        where id=#{id} and status=1
+        limit 1
+    </select>
+
+    <select id="getProviderByProCode" parameterType="java.lang.String" resultType="com.hfxt.domain.Provider">
+        <include refid="selectSql"></include>
+        where proCode=#{proCode}
+        limit 1
+    </select>
+
+    <select id="getProviderByProName" parameterType="java.lang.String" resultType="com.hfxt.domain.Provider">
+        <include refid="selectSql"></include>
+        where proName=#{proName}
+        limit 1
+    </select>
+
+    <select id="getAllProviderByPage" resultType="com.hfxt.domain.Provider">
+        <include refid="selectSql"></include>
+        <trim suffixOverrides="and">
+            where status = 1 and
+            <if test="proName!=null">proName like "%"#{proName}"%"</if>
+        </trim>
+        order by id desc
+        limit #{pager.startPage},#{pager.pageSize}
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer" parameterType="java.lang.String">
+        select count(0) from smbms_provider
+        <trim suffixOverrides="and">
+            where status = 1 and
+            <if test="proName!=null">proName like "%"#{proName}"%"</if>
+        </trim>
+    </select>
+
+    <delete id="delProviderById" parameterType="java.lang.Integer">
+         update smbms_provider set status=0 where id=#{id}
+    </delete>
+
+    <update id="updateProvider" parameterType="java.util.Map">
+        update smbms_provider
+        set
+        <trim suffixOverrides=",">
+            <if test="proCode!=null">proCode=#{proCode},</if>
+            <if test="proName!=null">proName=#{proName},</if>
+            <if test="proDesc!=null">proDesc=#{proDesc},</if>
+            <if test="proContact!=null">proContact=#{proContact},</if>
+            <if test="proPhone!=null">proPhone=#{proPhone},</if>
+            <if test="proAddress!=null">proAddress=#{proAddress},</if>
+            <if test="proFax!=null">proFax=#{proFax},</if>
+            <if test="createBy!=null">createdBy=#{createBy},creationDate=now(),</if>
+            <if test="modifyBy!=null">modifyBy=#{modifyBy},modifyDate=now(),</if>
+            <if test="status!=null">status=#{status}</if>
+        </trim>
+        where id=#{id}
+    </update>
+
+    <insert id="saveProvider" parameterType="java.util.Map">
+         insert into smbms_provider(proCode,proName,proDesc,proContact,proPhone,proAddress,proFax,createdBy,creationDate,status)
+        values (#{proCode},#{proName},#{proDesc},#{proContact},#{proPhone},#{proAddress},#{proFax},#{createdBy},now(),1);
+    </insert>
+
+</mapper>
+
+
+

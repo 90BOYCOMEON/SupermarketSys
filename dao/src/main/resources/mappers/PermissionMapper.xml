@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfxt.dao.IPermissionDao">
+
+
+    <select id="getAllPermissionByUserType" parameterType="java.lang.Integer" resultType="com.hfxt.domain.Permission">
+        select p.id id,p.perm_code permCode,p.perm_name permName,p.perm_url permUrl,p.parent_code parentCode,p.isMenu isMenu
+        from smbms_permission p,smbms_perm_role pr
+        where p.id=pr.perm_id and pr.role_id=#{userType} and isMenu=0
+        order by p.id asc
+    </select>
+
+    <select id="getAllNotMenuByUserType" parameterType="java.lang.Integer" resultType="com.hfxt.domain.Permission">
+        select p.id id,p.perm_code permCode,p.perm_name permName,p.perm_url permUrl,p.parent_code parentCode,p.isMenu isMenu
+        from smbms_permission p,smbms_perm_role pr
+        where p.id=pr.perm_id and pr.role_id=#{userType} and isMenu=1
+        order by p.id asc
+    </select>
+
+</mapper>

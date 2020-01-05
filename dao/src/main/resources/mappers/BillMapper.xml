@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfxt.dao.IBillDao">
+
+    <sql id="selectSql">
+        select id,billCode,productName,productDesc,productUnit,productCount,totalPrice,isPayment,createdBy,creationDate,modifyBy,modifyDate,providerId,status
+        from smbms_bill
+    </sql>
+
+    <delete id="delBillById" parameterType="java.lang.Integer">
+        update smbms_bill set status=0 where id=#{id}
+    </delete>
+
+    <select id="getBillByBillCode" parameterType="java.lang.String" resultType="com.hfxt.domain.Bill">
+        <include refid="selectSql"></include>
+        where billCode=#{billCode}
+        limit 1
+    </select>
+
+    <select id="getBillById" parameterType="java.lang.Integer" resultType="com.hfxt.domain.Bill">
+        <include refid="selectSql"></include>
+        where id=#{id} and status=1
+        limit 1
+    </select>
+
+    <select id="getBillByName" parameterType="java.lang.String" resultType="com.hfxt.domain.Bill">
+        <include refid="selectSql"></include>
+        where productName=#{productName}
+        limit 1
+    </select>
+
+    <insert id="saveBill" parameterType="java.util.Map">
+        insert into smbms_bill(billCode,productName,productUnit,productCount,totalPrice,isPayment,createdBy,creationDate,providerId,status)
+        values (#{billCode},#{productName},#{productUnit},#{productCount},#{totalPrice},#{isPayment},#{createdBy},now(),#{providerId},1);
+    </insert>
+
+    <update id="updateBill" parameterType="java.util.Map">
+        update smbms_bill
+        set
+        <trim suffixOverrides=",">
+        <if test="billCode!=null">billCode=#{billCode},</if>
+        <if test="productName!=null">productName=#{productName},</if>
+        <if test="productDesc!=null">productDesc=#{productDesc},</if>
+        <if test="productUnit!=null">productUnit=#{productUnit},</if>
+        <if test="productCount!=null">productCount=#{productCount},</if>
+        <if test="totalPrice!=null">totalPrice=#{totalPrice},</if>
+        <if test="isPayment!=null">isPayment=#{isPayment},</if>
+        <if test="createdBy!=null">createdBy=#{createBy},creationDate=now(),</if>
+        <if test="modifyBy!=null">modifyBy=#{modifyBy},modifyDate=now(),</if>
+        <if test="providerId!=null">providerId=#{providerId},</if>
+        <if test="status!=null">status=#{status}</if>
+    </trim>
+        where id=#{id}
+    </update>
+
+    <select id="getAllBillByPage" resultType="com.hfxt.domain.Bill">
+        select b.id,b.billCode,b.productName,b.productDesc,b.productUnit,b.productCount,b.totalPrice,b.isPayment,b.createdBy,b.creationDate,b.modifyBy,b.modifyDate,b.providerId,b.status,p.proName
+        from smbms_bill b,smbms_provider p
+        <trim suffixOverrides="and">
+            where b.status = 1 and p.status=1 and b.providerId=p.id and
+            <if test="productName!=null">b.productName like "%"#{productName}"%" and </if>
+            <if test="providerId!=null">b.providerId=#{providerId} and </if>
+            <if test="isPayment!=null">b.isPayment=#{isPayment}</if>
+        </trim>
+        order by b.id desc
+        limit #{pager.startPage},#{pager.pageSize}
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(0) from smbms_bill b,smbms_provider p
+        <trim suffixOverrides="and">
+            where b.providerId=p.id and b.status = 1 and p.status=1 and
+            <if test="productName!=null">b.productName like "%"#{productName}"%" and </if>
+            <if test="providerId!=null">b.providerId=#{providerId} and </if>
+            <if test="isPayment!=null">b.isPayment=#{isPayment}</if>
+        </trim>
+    </select>
+
+</mapper>
