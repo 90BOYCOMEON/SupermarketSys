@@ -15,7 +15,7 @@ run启动
 ## 使用说明
 打开浏览器，<br>
 输入http://localhost:8080/<br>
-输入管理员账号：admin，密码：123123<br>
+输入管理员账号：zzm123，密码：123123<br>
 上传历史<br>
 first commit<br>
 
